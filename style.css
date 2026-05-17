@@ -1,0 +1,150 @@
+body{
+    background-color: bisque;
+    height: 100vh;
+
+    width: 80%;
+    margin: auto;
+}
+.nav{
+    background-color: chocolate;
+    margin-top: 10px;
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.lft{
+    color: white;
+    font-size: 35px;
+    margin-left: 15px;  
+}
+h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+#left{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.order{
+    background-color: white;
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    
+}
+#ord{
+    color: black;
+    font-size: 40px;
+}
+.ordertea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(253, 253, 253);
+    
+    border-bottom-left-radius : 10px;
+    border-bottom-right-radius: 10px;
+
+}
+#ordimg{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+#ordbtn{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#ordbtn:hover{
+    background-color: rgb(28, 62, 20);
+}
+#status{
+    color: black;
+    font-size: 20px;
+    margin-top:40px;
+    
+}
+#statusp{
+    color: black;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.ordstatus{
+   display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(253, 253, 253);
+    
+    border-bottom-left-radius : 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.wait{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid rgb(133, 62, 34);
+    
+
+
+}
+.OR,.Prep,.Serve,.Bill,.Comp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+.ic{
+    font-size: 30px;
+    background-color: rgb(241, 241, 243);
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.fa-fire-burner{
+    background-color: rgb(237, 191, 152);
+}
+.fa-bell-concierge{
+    background-color: rgb(132, 188, 218);
+}
+.fa-receipt{
+    background-color: rgb(95, 172, 150);
+}
+.fa-face-smile{
+    background-color: rgb(242, 242, 144);
+}
+.status{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: baseline;
+    gap: 15px;
+}
