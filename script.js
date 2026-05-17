@@ -38,6 +38,7 @@ function billing(callback){
 function completed(){
     setTimeout(()=>{
      document.getElementsByClassName("fa-face-smile ")[0].style.backgroundColor="yellow";
+     document.getElementById("statusp").innerText="Order Completed!";
     alert("Order completed! Thank you having your Tea with us!");
     },2000);
 }
